@@ -11,10 +11,10 @@ const promptUser = () => {
     .prompt([
       {
         type: "input",
-        name: "projectName",
+        name: "name",
         message: "What is the name of your Project?(Required)",
-        validate: projectNameInput => {
-          if (projectNameInput) {
+        validate: nameInput => {
+          if (nameInput) {
             return true;
           } else {
             console.log("Please enter your Projects Name!");
@@ -22,6 +22,19 @@ const promptUser = () => {
           }
         }
       },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your contact e-mail address? (Required)',
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log('Please enter your contact e-mail!');
+                return false;
+            }
+          }
+        },
       {
         type: 'input',
         name: 'github',
@@ -112,6 +125,44 @@ const promptUser = () => {
           }
         }
       },
+      {
+        type:'confirm',
+        name: 'confirmLicense',
+        message: 'Would you like to add a License?',
+        default: false
+    },
+      {
+        type: 'checkbox',
+        name: 'license',
+        message: 'What license would you like to use for this project? (Check all that apply)',
+        choices: ['Mozilla Public License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        when: ({ confirmLicense }) => {
+            if (confirmLicense) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+      type: 'input',
+      name: 'badges',
+      message: 'Plese enter any Badges you would like to add.',
+      when: ({ confirmBadge }) => {
+          if (confirmBadge) {
+              return true;
+          } else {
+              return false;
+          }
+      }
+  },
+  {
+      type: 'confirm',
+      name: 'confirmFeatures',
+      message: 'would you like to list any features?',
+      default: false
+  },
+      
     ])
 
     .then((answers) => {
@@ -124,7 +175,7 @@ const promptUser = () => {
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-  fs.writeFile('README.MD',data, err => {
+  fs.writeFile('README.MD', data, err => {
     if (err) throw err;
 
     console.log('README  finished! Please check out my README.MD page to see the results');
