@@ -11,10 +11,10 @@ const promptUser = () => {
     .prompt([
       {
         type: "input",
-        name: "name",
+        name: "projectName",
         message: "What is the name of your Project?(Required)",
-        validate: (nameInput) => {
-          if (nameInput) {
+        validate: projectNameInput => {
+          if (projectNameInput) {
             return true;
           } else {
             console.log("Please enter your Projects Name!");
@@ -23,17 +23,49 @@ const promptUser = () => {
         }
       },
       {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub Username (Required)',
+        validate: githubInput => {
+          if (githubInput) {
+            return true;
+          } else {
+            console.log('Please enter your GitHub username!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'link',
+        message: 'Enter the GitHub link to your project. (Required)',
+        validate: linkInput => {
+          if (linkInput) {
+            return true;
+          } else {
+            console.log('You need to enter a project GitHub link!');
+            return false;
+          }
+        }
+      },
+      {
         type: "input",
         name: "description",
         message: "Please include a description of your Project?",
-        validate: (nameInput) => {
-          if (nameInput) {
+        validate: descriptionInput => {
+          if (descriptionInput) {
             return true;
           } else {
             console.log("Please include a description of your Project!");
             return false;
           }
         }
+      },
+      {
+        type: 'checkbox',
+        name: 'languages',
+        message: 'What languages did you use for this project? (Check all that apply)',
+        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
       },
       {
         type: "confirm",
@@ -45,8 +77,8 @@ const promptUser = () => {
         type: "input",
         name: "installation",
         message: "Please include all of the installation instructions for your Project?",
-        validate: (nameInput) => {
-          if (nameInput) {
+        validate: (installationInput) => {
+          if (installationInput) {
             return true;
           } else {
             console.log("Please include all of the installation instructions for your Project!");
@@ -58,8 +90,8 @@ const promptUser = () => {
         type: "input",
         name: "usage",
         message: "Please include usage for your Project?",
-        validate: (nameInput) => {
-          if (nameInput) {
+        validate: (usageInput) => {
+          if (usageInput) {
             return true;
           } else {
             console.log("Please include usage for your Project!");
@@ -71,8 +103,8 @@ const promptUser = () => {
         type: "input",
         name: "credits",
         message: "Please include any credits for your Project?",
-        validate: (nameInput) => {
-          if (nameInput) {
+        validate: (creditsInput) => {
+          if (creditsInput) {
             return true;
           } else {
             console.log("Please include any credits for your Project!");
@@ -80,20 +112,23 @@ const promptUser = () => {
           }
         }
       },
-
-      
     ])
 
     .then((answers) => {
       generateMarkdown(answers);
       let content = generateMarkdown(answers);
-      console.log(content);
+      writeToFile(content)
+            console.log(content);
     });
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  // fs fs.writeFile
+function writeToFile(data) {
+  fs.writeFile('README.MD',data, err => {
+    if (err) throw err;
+
+    console.log('README  finished! Please check out my README.MD page to see the results');
+  })
 }
 
 // TODO: Create a function to initialize app
@@ -103,31 +138,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-
-
-
-// Table of Content (Optional)
-// If your README is very long, add a table of contents to make it easy for users to find what they need.
-// Installation
-// Usage
-// Credits
-// License
-
-// Installation:
-// What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-// Usage:
-// To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-// ![alt text](assets/images/screenshot.png)
-
-// Credits:
-// List your collaborators, if any, with links to their GitHub profiles.
-
-// If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-// If you followed tutorials, include links to those here as well.
-
-// License:
-// The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use https://choosealicense.com/
