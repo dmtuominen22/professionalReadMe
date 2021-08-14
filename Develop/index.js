@@ -1,47 +1,110 @@
 // TODO: Include packages needed for this application
-const fs = require('fs');
-const inquirer = require('inquirer');
-
+const fs = require("fs");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
-// const questions = [];
+//  const questions = [];
 
 const promptUser = () => {
-    return inquirer.prompt([
-        {
-            type: 'input',
-            name: 'name',
-            message: 'What is the name of your Project?',
-            validate: nameInput => {
-                if (nameInput) {
-                    return true;
-                } else {
-                    console.log('Please enter your Projects Name!');
-                    return false;
-                }
-            }
-        },
-        // Next question goes here
-    ]);
+  inquirer
+    .prompt([
+      {
+        type: "input",
+        name: "name",
+        message: "What is the name of your Project?(Required)",
+        validate: (nameInput) => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log("Please enter your Projects Name!");
+            return false;
+          }
+        }
+      },
+      {
+        type: "input",
+        name: "description",
+        message: "Please include a description of your Project?",
+        validate: (nameInput) => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log("Please include a description of your Project!");
+            return false;
+          }
+        }
+      },
+      {
+        type: "confirm",
+        name: "tableOfContentConfirm",
+        message: "Would you like to include a Table of Content?",
+        default: true
+      },
+      {
+        type: "input",
+        name: "installation",
+        message: "Please include all of the installation instructions for your Project?",
+        validate: (nameInput) => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log("Please include all of the installation instructions for your Project!");
+            return false;
+          }
+        }
+      },
+      {
+        type: "input",
+        name: "usage",
+        message: "Please include usage for your Project?",
+        validate: (nameInput) => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log("Please include usage for your Project!");
+            return false;
+          }
+        }
+      },
+      {
+        type: "input",
+        name: "credits",
+        message: "Please include any credits for your Project?",
+        validate: (nameInput) => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log("Please include any credits for your Project!");
+            return false;
+          }
+        }
+      },
+
+      
+    ])
+
+    .then((answers) => {
+      generateMarkdown(answers);
+      let content = generateMarkdown(answers);
+      console.log(content);
+    });
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {
+  // fs fs.writeFile
+}
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+  promptUser();
+}
 
 // Function call to initialize app
 init();
 
 
-
-
-// What is your project title:
-// give your project a good title that makes sense
-
-// Description:
-// give a good description of what your project is and what it is about
 
 
 // Table of Content (Optional)
@@ -50,7 +113,6 @@ init();
 // Usage
 // Credits
 // License
-
 
 // Installation:
 // What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
