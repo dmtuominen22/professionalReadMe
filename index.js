@@ -22,6 +22,13 @@ const promptUser = () => {
           }
         }
       },
+
+      {
+        type: "confirm",
+        name: "tableOfContentConfirm",
+        message: "Would you like to include a Table of Content?",
+        default: true
+      },
       {
         type: 'input',
         name: 'email',
@@ -38,7 +45,7 @@ const promptUser = () => {
       {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub Username (Required)',
+        message: 'Enter your GitHub URL (Required)',
         validate: githubInput => {
           if (githubInput) {
             return true;
@@ -51,7 +58,7 @@ const promptUser = () => {
       {
         type: 'input',
         name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
+        message: 'Enter the GitHub URL to your project.',
         validate: linkInput => {
           if (linkInput) {
             return true;
@@ -80,12 +87,7 @@ const promptUser = () => {
         message: 'What languages did you use for this project? (Check all that apply)',
         choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
       },
-      {
-        type: "confirm",
-        name: "tableOfContentConfirm",
-        message: "Would you like to include a Table of Content?",
-        default: true
-      },
+      
       {
         type: "input",
         name: "installation",
@@ -135,7 +137,7 @@ const promptUser = () => {
         type: 'checkbox',
         name: 'license',
         message: 'What license would you like to use for this project? (Check all that apply)',
-        choices: ['Mozilla Public License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['Mozilla Public License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense', 'Other'],
         when: ({ confirmLicense }) => {
             if (confirmLicense) {
                 return true;
@@ -159,7 +161,7 @@ const promptUser = () => {
   {
       type: 'confirm',
       name: 'confirmFeatures',
-      message: 'would you like to list any features?',
+      message: 'would you like to list your Project as a feature?',
       default: false
   },
       
