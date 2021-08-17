@@ -1,49 +1,45 @@
 
-  ##Project Name  
-  ReadMe Generator 
+# Project  
+  REadMe Generator
+
+# Table of Content:
+ -[description] (#Description)
+ -[Project] (Project)
+ -[Website] (Website-URL)
+ -[Languages-used] (Language-used)
+
   
-  ##Table of Content:
-    true
-    -[description] (#Description)
-    -[Project] (Project)
-    -[Website] (Website-URL)
-    -[Languages-used] (Language-used)
-    
+# Description
+   This is a project that taught us how to use Node.JS to create a readme file by using only JS and the terminal, also get the information from the file to generate to the reame file.
 
+# Project
+   https://dmtuominen22.github.io/  
 
-
-   ##Description
-   this is a project for creating a readme with using just node.js and the termianl.
-
-   ##Project
-   https://dmtuominen22.github.io/weatherdashboard/  
-
-   ##Website-URL
+# Website-URL
    https://github.com/dmtuominen22/weatherdashboard
 
-   ##Laguages-used
-   JavaScript,ES6,jQuery,Node
+# Laguages-used
+   ES6,jQuery,Node
 
-  ##Installations used for the Project
-  this is where I put the instruction on how I build the stupid readme file
+# Installations used for the Project
+  We used Node.js, JavaScript, Inqluire
 
-  ##Project Usage
-  not sure what this means
+#Project Usage
+  we are using the terminal to ask each quesiton and have them granate to the readme file
 
-  ##Licences Used
-   true
-   MIT License
+# Licences Used
+    Mozilla Public License 2.0
 
-   ##Data Badge
+# Data Badge
    undefined
 
-   ##Featured Project
+# Featured Project
     false
 
-  ##Contributions
-   no credits
+# Contributions
+   Denise Tuominen
 
-  #Contact Email Address
+# Contact Email Address
    dmtuominen@gmail.com
 
   

@@ -1,62 +1,59 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
-
-// // TODO: Create a function that returns the license link
+// // TODO: Create a function that returns a license badge based on which license is passed in
 // // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
+//  function renderLicenseBadge(license) {}
 
-// // TODO: Create a function that returns the license section of README
+// // // TODO: Create a function that returns the license link
+// // // If there is no license, return an empty string
+//  function renderLicenseLink(license) {}
+
+// // // TODO: Create a function that returns the license section of README
 // // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
+//  function renderLicenseSection(license) {}
 
-// // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+// // // TODO: Create a function to generate markdown for README
+ function generateMarkdown(data) {
   return `
-  ##Project Name  
+# Project  
   ${data.name}
+
+# Table of Content:
+ -[description] (#Description)
+ -[Project] (Project)
+ -[Website] (Website-URL)
+ -[Languages-used] (Language-used)
+
   
-  ##Table of Content:
-    ${data.tableOfContentConfirm}
-    -[description] (#Description)
-    -[Project] (Project)
-    -[Website] (Website-URL)
-    -[Languages-used] (Language-used)
-
-
-
-
-   ##Description
+# Description
    ${data.description}
 
-   ##Project
+# Project
    ${data.github}  
 
-   ##Website-URL
+# Website-URL
    ${data.link}
 
-   ##Laguages-used
+# Laguages-used
    ${data.languages}
 
-  ##Installations used for the Project
+# Installations used for the Project
   ${data.installation}
 
-  ##Project Usage
+#Project Usage
   ${data.usage}
 
-  ##Licences Used
+# Licences Used
     ${data.license}
 
-   ##Data Badge
+# Data Badge
    ${data.badge}
 
-   ##Featured Project
+# Featured Project
     ${data.confirmFeatures}
 
-  ##Contributions
+# Contributions
    ${data.credits}
 
-  #Contact Email Address
+# Contact Email Address
    ${data.email}
 
   `;
