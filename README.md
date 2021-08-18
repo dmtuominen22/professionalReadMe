@@ -1,9 +1,9 @@
 
 # Project  
-  ReadMe Generator
+  ReadMe Generator	
 
 # Table of Content:
-1. [Description] (#description)
+1. (#description)[Description]
 2. [Project] (#usage)
 3. [Website] (#github)
 4. [Languages-used] (#link)
@@ -13,32 +13,30 @@
 8. [Credits] (#credits)
  
 # Description
-   ajfdjfajfjaf
+   fjdaklfjd;ajf
 
 # Project
-   dmtuominen22  
+   fjdkajf;  
 
 # Website-URL
-   dmttjalfjdlj
+   fjdaksjfdl
 
 # Laguages-used
-   JavaScript,CSS,jQuery,Bootstrap,Node
+   JavaScript,HTML,CSS,ES6,jQuery
 
 # Installations used for the Project
-  afda
+  fadfadfaf
 
 #Project Usage
-  afdaf
+  fadsfdafaf
 
 # Licences Used
-    Mozilla Public License 2.0
-    
-    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 # Featured Project
-    false
+    true
 
 # Contributions
    denise
-   dmtuomien@gmail.com
+   dmtuominen@gmail.com
   
