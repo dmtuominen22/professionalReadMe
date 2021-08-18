@@ -60,7 +60,7 @@ const promptUser = () => {
       {
         type: "input",
         name: "link",
-        message: "Enter the GitHub URL to your project.",
+        message: "Enter the URl to your GitHub URLproject.",
         validate: (linkInput) => {
           if (linkInput) {
             return true;

@@ -48,33 +48,34 @@ function generateMarkdown(data) {
 
 ## Table of Content:
 * [Description](#description)
-* [Project](#project)
-* [Git Hub URL Website](#github)
-* [Languages Used](#languages)
+* [GitHUb](#github)
+* [Website](#website)
+* [Languages](#languages)
 * [Installation](#installation)
+* [Purpose](#purpose)
 * [Licenses](#license)
-* [Confirm Features](#features)
-* [Credits](#credits)
+* [Featured Project](#featuresProject)
+* [Contributions](#contributions)
 
 ## Description
    ${data.description}
 
-## Project
+## GitHub
    ${data.github}  
 
-## Website-URL
+## Website 
    ${data.link}
 
-## Laguages-used
+## Laguages
    ${data.languages}
 
-## Installations used for the Project
+## Installations
   ${data.installation}
 
-## Project Usage
+## Purpose
   ${data.usage}
 
-## Licences Used
+## Licences
    ${data.licence}
 
 ## Badge 
