@@ -26,10 +26,7 @@
  [badge] (badge)
  [confirmFeatures] (confirmFeatures)
  [credits] (credits)
-
-
-
-  
+ 
 # Description
    ${data.description}
 
