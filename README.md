@@ -1,42 +1,45 @@
 
 # Project  
-  ReadMe Generator	
+  ReadMe Generator 
 
 # Table of Content:
-1. (#description)[Description]
-2. [Project] (#usage)
-3. [Website] (#github)
-4. [Languages-used] (#link)
-5. [Installation] (#installation)
-6. [License] (#license)
-7. [ConfirmFeatures] (#confirmFeatures)
-8. [Credits] (#credits)
+* [Description](#description)
+* [Project] (#usage)
+* [Website] (#github)
+* [Languages-used] (#link)
+* [Installation](#installation)
+* [License] (#license)
+* [ConfirmFeatures] (#confirmFeatures)
+* [Credits] (#credits)
  
-# Description
-   fjdaklfjd;ajf
+## Description
+   fjdafjsdajfadjf
 
-# Project
-   fjdkajf;  
+## Project
+   dmtuominen22  
 
-# Website-URL
-   fjdaksjfdl
+## Website-URL
+   jfdkajfdf
 
-# Laguages-used
-   JavaScript,HTML,CSS,ES6,jQuery
+## Laguages-used
+   JavaScript,HTML,CSS,ES6,jQuery,Bootstrap
 
-# Installations used for the Project
-  fadfadfaf
+## Installations used for the Project
+  okjjfkdlajfl;dasjfadjksfasjf
 
-#Project Usage
-  fadsfdafaf
+## Project Usage
+  jfdasjfadjfasdjf
 
-# Licences Used
+## Licences Used
+   undefined
+
+## Badge 
    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-# Featured Project
-    true
+## Featured Project
+    false
 
-# Contributions
-   denise
+## Contributions
+   Denise
    dmtuominen@gmail.com
   
