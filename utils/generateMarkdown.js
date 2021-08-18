@@ -46,25 +46,16 @@ function generateMarkdown(data) {
 # Project  
   ${data.name}
 
-# Table of Content:
+## Table of Content:
 * [Description](#description)
 * [Project](#project)
-* [Git Hub Website](#gitHubwebsite)
-* [Languages Used](#languagesUsed)
+* [Git Hub URL Website](#github)
+* [Languages Used](#languages)
 * [Installation](#installation)
-* [Licenses](#licenses)
-* [Confirm Features](#confirmFeatures)
+* [Licenses](#license)
+* [Confirm Features](#features)
 * [Credits](#credits)
 
-* [Description](#description)
-* [Project](#usage)
-* [Website](#github)
-* [Languages-used](#link)
-* [Installation](#installation)
-* [License](#license)
-* [ConfirmFeatures](#confirmFeatures)
-* [Credits](#credits)
- 
 ## Description
    ${data.description}
 
@@ -90,7 +81,7 @@ function generateMarkdown(data) {
    ${licenseBadge}
 
 ## Featured Project
-    ${data.confirmFeatures}
+    ${data.features}
 
 ## Contributions
    ${data.credits}

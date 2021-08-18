@@ -1,43 +1,34 @@
 
 # Project  
-  readme
+  REadMe Generator
 
-# Table of Content:
+## Table of Content:
 * [Description](#description)
 * [Project](#project)
-* [Git Hub Website](#gitHubwebsite)
-* [Languages Used](#languagesUsed)
+* [Git Hub URL Website](#github)
+* [Languages Used](#languages)
 * [Installation](#installation)
-* [Licenses](#licenses)
-* [Confirm Features](#confirmFeatures)
+* [Licenses](#license)
+* [Confirm Features](#features)
 * [Credits](#credits)
 
-* [Description](#description)
-* [Project](#usage)
-* [Website](#github)
-* [Languages-used](#link)
-* [Installation](#installation)
-* [License](#license)
-* [ConfirmFeatures](#confirmFeatures)
-* [Credits](#credits)
- 
 ## Description
-   fjdajf;a
+   this is a project for creating a readme with using just node.js and the termianl.
 
 ## Project
-   fjdlakjf  
+   dmtuominen22  
 
 ## Website-URL
-   fjakjf
+   https://github.com/dmtuominen22/
 
 ## Laguages-used
-   JavaScript
+   JavaScript,ES6,jQuery,Node
 
 ## Installations used for the Project
-  ;djfdjfajf
+  the Project this is where I put the instruction on how I build the stupid readme file
 
 ## Project Usage
-  fjafkja;
+  this project is to be used to create a readme file that looks professional
 
 ## Licences Used
    undefined
@@ -49,6 +40,6 @@
     true
 
 ## Contributions
-   denise
-   dmt@gmail.com
+   Denise Tuominen
+   dmtuominen@gmail.com
   
