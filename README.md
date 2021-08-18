@@ -1,43 +1,44 @@
 
 # Project  
-  fasfd
+  ReadMe Generator
 
 # Table of Content:
-1. [Description] 
-2. [Project] 
-3. [Website] 
-4. [Languages-used] 
-5. [Installation] 
-6. [License] 
-7. [ConfirmFeatures] 
-8. [Credits] 
+1. [Description] (#description)
+2. [Project] (#usage)
+3. [Website] (#github)
+4. [Languages-used] (#link)
+5. [Installation] (#installation)
+6. [License] (#license)
+7. [ConfirmFeatures] (#confirmFeatures)
+8. [Credits] (#credits)
  
 # Description
-   yyyyy
+   ajfdjfajfjaf
 
 # Project
-   yyyy  
+   dmtuominen22  
 
 # Website-URL
-   yyyy
+   dmttjalfjdlj
 
 # Laguages-used
-   JavaScript
+   JavaScript,CSS,jQuery,Bootstrap,Node
 
 # Installations used for the Project
-  yyyyyyy
+  afda
 
 #Project Usage
-  yyyyyy
+  afdaf
 
 # Licences Used
-   //  Mozilla Public License 2.0
+    Mozilla Public License 2.0
+    
     [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 # Featured Project
-    true
+    false
 
 # Contributions
-   yyyy
-   afda
+   denise
+   dmtuomien@gmail.com
   
