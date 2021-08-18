@@ -1,3 +1,10 @@
+// TODO: Create a function that returns the license link
+// // If there is no license, return an empty string
+// function renderLicenseLink(license) {
+//    switch
+// }
+
+
 // // TODO: Create a function that returns a license badge based on which license is passed in
 // // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -26,40 +33,43 @@ function generateMarkdown(data) {
   ${data.name}
 
 # Table of Content:
-1. (#description)[Description]
-2. [Project] (#usage)
-3. [Website] (#github)
-4. [Languages-used] (#link)
-5. [Installation] (#installation)
-6. [License] (#license)
-7. [ConfirmFeatures] (#confirmFeatures)
-8. [Credits] (#credits)
+* [Description](#description)
+* [Project] (#usage)
+* [Website] (#github)
+* [Languages-used] (#link)
+* [Installation](#installation)
+* [License] (#license)
+* [ConfirmFeatures] (#confirmFeatures)
+* [Credits] (#credits)
  
-# Description
+## Description
    ${data.description}
 
-# Project
+## Project
    ${data.github}  
 
-# Website-URL
+## Website-URL
    ${data.link}
 
-# Laguages-used
+## Laguages-used
    ${data.languages}
 
-# Installations used for the Project
+## Installations used for the Project
   ${data.installation}
 
-#Project Usage
+## Project Usage
   ${data.usage}
 
-# Licences Used
+## Licences Used
+   ${data.licences}
+
+## Badge 
    ${licenseBadge}
 
-# Featured Project
+## Featured Project
     ${data.confirmFeatures}
 
-# Contributions
+## Contributions
    ${data.credits}
    ${data.email}
   `;
