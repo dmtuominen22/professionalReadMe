@@ -1,7 +1,21 @@
 // TODO: Create a function that returns the license link
 // // If there is no license, return an empty string
 // function renderLicenseLink(license) {
-//    switch
+//    switch (licenceLink[0]) {
+//       case "Mozilla Public License 2.0":
+//       return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+//       break;
+
+//     case "MIT License":
+//       return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+//       break;
+//     case "Boost Software License 1.0":
+//       return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+//       break;
+//       case "The Unlicense":
+//          return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
+//          break;
+//    }
 // }
 
 
@@ -34,13 +48,22 @@ function generateMarkdown(data) {
 
 # Table of Content:
 * [Description](#description)
-* [Project] (#usage)
-* [Website] (#github)
-* [Languages-used] (#link)
+* [Project](#project)
+* [Git Hub Website](#gitHubwebsite)
+* [Languages Used](#languagesUsed)
 * [Installation](#installation)
-* [License] (#license)
-* [ConfirmFeatures] (#confirmFeatures)
-* [Credits] (#credits)
+* [Licenses](#licenses)
+* [Confirm Features](#confirmFeatures)
+* [Credits](#credits)
+
+* [Description](#description)
+* [Project](#usage)
+* [Website](#github)
+* [Languages-used](#link)
+* [Installation](#installation)
+* [License](#license)
+* [ConfirmFeatures](#confirmFeatures)
+* [Credits](#credits)
  
 ## Description
    ${data.description}
@@ -61,7 +84,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
 ## Licences Used
-   ${data.licences}
+   ${data.licence}
 
 ## Badge 
    ${licenseBadge}
