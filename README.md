@@ -3,15 +3,15 @@
   ReadMe Generator
 
 # Table of Content:
- [description] (#Description)
- [Project] (Project)
- [Website] (Website-URL)
- [Languages-used] (Language-used)
- [installation] (instllation)
- [license] (license)
- [badge] (badge)
- [confirmFeatures] (confirmFeatures)
- [credits] (credits)
+[description] (Description)
+[Project] (Project)
+[Website] (Website-URL)
+[Languages-used] (Language-used)
+[installation] (instllation)
+[license] (license)
+[badge] (badge)
+[confirmFeatures] (confirmFeatures)
+[credits] (credits)
  
 # Description
    This is a project that taught us how to use Node.JS to create a readme file by using only JS and the terminal, also get the information from the file to generate to the reame file.
