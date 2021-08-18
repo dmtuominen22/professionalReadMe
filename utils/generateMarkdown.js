@@ -1,7 +1,6 @@
 // // TODO: Create a function that returns a license badge based on which license is passed in
 // // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  console.log(license);
   switch (license[0]) {
     case "Mozilla Public License 2.0":
       return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
@@ -27,7 +26,7 @@ function generateMarkdown(data) {
   ${data.name}
 
 # Table of Content:
-1. [Description] (#description)
+1. (#description)[Description]
 2. [Project] (#usage)
 3. [Website] (#github)
 4. [Languages-used] (#link)
@@ -55,9 +54,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
 # Licences Used
-    ${data.license}
-    
-    ${licenseBadge}
+   ${licenseBadge}
 
 # Featured Project
     ${data.confirmFeatures}
