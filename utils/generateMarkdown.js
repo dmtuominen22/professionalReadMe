@@ -1,31 +1,40 @@
 // // TODO: Create a function that returns a license badge based on which license is passed in
 // // If there is no license, return an empty string
-//  function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  console.log(license);
+  switch (license[0]) {
+    case "Mozilla Public License 2.0":
+      return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+      break;
 
-// // // TODO: Create a function that returns the license link
-// // // If there is no license, return an empty string
-//  function renderLicenseLink(license) {}
-
-// // // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-//  function renderLicenseSection(license) {}
+    case "MIT License":
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+    case "Boost Software License 1.0":
+      return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+      break;
+      case "The Unlicense":
+         return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
+         break;
+  }
+}
 
 // // // TODO: Create a function to generate markdown for README
- function generateMarkdown(data) {
+function generateMarkdown(data) {
+  var licenseBadge = renderLicenseBadge(data.license);
   return `
 # Project  
   ${data.name}
 
 # Table of Content:
-*[description] (#Description)
-[Project] (Project)
-[Website] (Website-URL)
-[Languages-used] (Language-used)
-[installation] (instllation)
-[license] (license)
-[badge] (badge)
-[confirmFeatures] (confirmFeatures)
-[credits] (credits)
+1. [description] (#Description)
+2. [Project] (#Project)
+3. [Website] (#Website-URL)
+4. [Languages-used] (#Language-used)
+5. [installation] (#instllation)
+6. [license] (#license)
+7. [confirmFeatures] (confirmFeatures)
+8. [credits] (#credits)
  
 # Description
    ${data.description}
@@ -47,9 +56,7 @@
 
 # Licences Used
     ${data.license}
-
-# Data Badge
-   ${data.badge}
+    ${licenseBadge}
 
 # Featured Project
     ${data.confirmFeatures}

@@ -145,22 +145,9 @@ const promptUser = () => {
           "MIT License",
           "Boost Software License 1.0",
           "The Unlicense",
-          "Other",
         ],
         when: ({ confirmLicense }) => {
           if (confirmLicense) {
-            return true;
-          } else {
-            return false;
-          }
-        },
-      },
-      {
-        type: "input",
-        name: "badges",
-        message: "Plese enter any Badges you would like to add.",
-        when: ({ confirmBadge }) => {
-          if (confirmBadge) {
             return true;
           } else {
             return false;

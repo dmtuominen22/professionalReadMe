@@ -1,46 +1,43 @@
 
 # Project  
-  ReadMe Generator
+  y
 
 # Table of Content:
- [description] (#Description)
- [Project] (Project)
- [Website] (Website-URL)
- [Languages-used] (Language-used)
- [installation] (instllation)
- [license] (license)
- [badge] (badge)
- [confirmFeatures] (confirmFeatures)
- [credits] (credits)
+*[description] (#Description)
+[Project] (Project)
+[Website] (Website-URL)
+[Languages-used] (Language-used)
+[installation] (instllation)
+[license] (license)
+[confirmFeatures] (confirmFeatures)
+[credits] (credits)
  
 # Description
-   This is a project that taught us how to use Node.JS to create a readme file by using only JS and the terminal, also get the information from the file to generate to the reame file.
+   y
 
 # Project
-   https://dmtuominen22.github.io/  
+   y  
 
 # Website-URL
-   https://dmtuominen22.github.io/
+   y
 
 # Laguages-used
-   JavaScript,ES6,jQuery,Node
+   JavaScript
 
 # Installations used for the Project
-  We used Node.js, JavaScript, Inqluire
+  y
 
 #Project Usage
-  #Project Usage we are using the terminal to ask each quesiton and have them granate to the readme file
+  y
 
 # Licences Used
-    MIT License
-
-# Data Badge
-   undefined
+    Mozilla Public License 2.0
+    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 # Featured Project
     true
 
 # Contributions
-   Denise Tuominen
-   dmtuominen@gmail.com
+   y
+   y
   
