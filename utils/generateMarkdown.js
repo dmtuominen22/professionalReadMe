@@ -17,15 +17,15 @@
   ${data.name}
 
 # Table of Content:
- [description] (#Description)
- [Project] (Project)
- [Website] (Website-URL)
- [Languages-used] (Language-used)
- [installation] (instllation)
- [license] (license)
- [badge] (badge)
- [confirmFeatures] (confirmFeatures)
- [credits] (credits)
+*[description] (#Description)
+[Project] (Project)
+[Website] (Website-URL)
+[Languages-used] (Language-used)
+[installation] (instllation)
+[license] (license)
+[badge] (badge)
+[confirmFeatures] (confirmFeatures)
+[credits] (credits)
  
 # Description
    ${data.description}
