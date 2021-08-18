@@ -48,13 +48,13 @@ function generateMarkdown(data) {
 
 ## Table of Content:
 * [Description](#description)
-* [GitHUb](#github)
+* [GitHub](#github)
 * [Website](#website)
 * [Languages](#languages)
-* [Installation](#installation)
+* [Installations](#installations)
 * [Purpose](#purpose)
-* [Licenses](#license)
-* [Featured Project](#featuresProject)
+* [License](#license)
+* [Featured](#featured)
 * [Contributions](#contributions)
 
 ## Description
@@ -75,13 +75,10 @@ function generateMarkdown(data) {
 ## Purpose
   ${data.usage}
 
-## Licences
-   ${data.licence}
-
-## Badge 
+## License 
    ${licenseBadge}
 
-## Featured Project
+## Featured
     ${data.features}
 
 ## Contributions

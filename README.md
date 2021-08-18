@@ -1,46 +1,43 @@
 
 # Project  
-  Readme Generator
+  ReadMe Generator
 
 ## Table of Content:
 * [Description](#description)
-* [GitHUb](#github)
+* [GitHub](#github)
 * [Website](#website)
 * [Languages](#languages)
-* [Installation](#installation)
+* [Installations](#installations)
 * [Purpose](#purpose)
-* [Licenses](#license)
-* [Featured Project](#featuresProject)
+* [License](#license)
+* [Featured](#featured)
 * [Contributions](#contributions)
 
 ## Description
-   testing
+   this is a that was created with node.js and ran throught the terminal and when I finish it will generate a readme file.
 
 ## GitHub
-   dmtuominen22  
+    https://dmtuominen22.github.io/  
 
 ## Website 
-   url
+   https://github.com/dmtuominen22/
 
 ## Laguages
-   JavaScript
+   JavaScript,ES6,jQuery,Node
 
 ## Installations
-  yesa 
+  Node.js and inquirer
 
 ## Purpose
-  ajdfl;adjf
+  this is used to create a professonal readme me file.
 
-## Licences
-   undefined
-
-## Badge 
+## License 
    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-## Featured Project
+## Featured
     true
 
 ## Contributions
-   Denise
+   Denise Tuominen
    dmtuominen@gmail.com
   

@@ -60,7 +60,7 @@ const promptUser = () => {
       {
         type: "input",
         name: "link",
-        message: "Enter the URl to your GitHub URLproject.",
+        message: "Enter the URl to  where your GitHub project is deployed.",
         validate: (linkInput) => {
           if (linkInput) {
             return true;
@@ -163,7 +163,7 @@ const promptUser = () => {
       {
         type: "input",
         name: "credits",
-        message: "Please include any credits for your Project?",
+        message: "Please include any contributors for your Project?",
         validate: (creditsInput) => {
           if (creditsInput) {
             return true;
