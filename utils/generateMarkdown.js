@@ -27,14 +27,14 @@ function generateMarkdown(data) {
   ${data.name}
 
 # Table of Content:
-1. [description] (#Description)
-2. [Project] (#Project)
-3. [Website] (#Website-URL)
-4. [Languages-used] (#Language-used)
-5. [installation] (#instllation)
-6. [license] (#license)
-7. [confirmFeatures] (confirmFeatures)
-8. [credits] (#credits)
+1. [Description] (#description)
+2. [Project] (#usage)
+3. [Website] (#github)
+4. [Languages-used] (#link)
+5. [Installation] (#installation)
+6. [License] (#license)
+7. [ConfirmFeatures] (#confirmFeatures)
+8. [Credits] (#credits)
  
 # Description
    ${data.description}
