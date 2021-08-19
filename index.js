@@ -79,7 +79,7 @@ const promptUser = () => {
           if (linkInput) {
             return true;
           } else {
-            console.log("You need to enter a project GitHub link!");
+            console.log("You need to enter a URL to where your project is deployed!");
             return false;
           }
         },
@@ -140,8 +140,7 @@ const promptUser = () => {
       {
         type: "checkbox",
         name: "license",
-        message:
-          "What license would you like to use for this project? (Check all that apply)",
+        message: "What license would you like to use for this project?",
         choices: [
           "Mozilla Public License 2.0",
           "MIT License",
@@ -181,8 +180,7 @@ const promptUser = () => {
       generateMarkdown(answers);
       let content = generateMarkdown(answers);
       writeToFile(content);
-      console.log(content);
-    });
+      });
 };
 
 // TODO: Create a function to write README file

@@ -1,6 +1,6 @@
 
 # Project  
-  ReadMe Generator
+  test
 
 ## Table of Content:
 * [Description](#description)
@@ -14,22 +14,22 @@
 * [Contributions](#contributions)
 
 ## Description
-   this is a that was created with node.js and ran throught the terminal and when I finish it will generate a readme file.
+   ydjakfdj;a
 
 ## GitHub
-   https://dmtuominen22.github.io/    
+   fjdkaljf  
 
-## Website 
-   https://github.com/dmtuominen22/
+## Website
+   fjadf;lja
 
 ## Languages
-   JavaScript,ES6,jQuery,Node
-
+   JavaScript, HTML, CSS, ES6, jQuery
+   
 ## Installations
-  Node.js, Inquirer
+  uuu
 
 ## Purpose
-  this will let you create a professional readme file with all the information you need for one.
+  uuu
 
 ## License/Badge 
    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
@@ -38,6 +38,7 @@
     false
 
 ## Contributions
-   Denise Tuominen
-   dmtuominen@gmail.com
+   y
+
+   dmfeme
   
