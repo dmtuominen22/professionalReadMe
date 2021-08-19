@@ -139,7 +139,7 @@ const promptUser = () => {
       },
       {
         type: "checkbox",
-        name: "license",
+        name: "licenseBadge",
         message: "What license would you like to use for this project?",
         choices: [
           "Mozilla Public License 2.0",
@@ -147,7 +147,7 @@ const promptUser = () => {
           "Boost Software License 1.0",
           "The Unlicense",
         ],
-        when: ({ confirmLicense }) => {
+        when: ({confirmLicense }) => {
           if (confirmLicense) {
             return true;
           } else {
@@ -157,7 +157,7 @@ const promptUser = () => {
       },
       {
         type: "confirm",
-        name: "features",
+        name: "featured",
         message: "would you like to list any items in your Project as a feature?",
         deault: false,
       },
@@ -173,7 +173,6 @@ const promptUser = () => {
             return false;
           }
         },
-
       },
     {
         type: "input",
