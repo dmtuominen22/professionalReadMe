@@ -62,8 +62,8 @@ const promptUser = () => {
         type: "input",
         name: "link1",
         message: "Enter your GitHub URL (Required)",
-        validate: (githubInput) => {
-          if (githubInput) {
+        validate: (link1Input) => {
+          if (link1Input) {
             return true;
           } else {
             console.log("Please enter your GitHub username!");
@@ -75,8 +75,8 @@ const promptUser = () => {
         type: "input",
         name: "link2",
         message: "Enter the URl to  where your GitHub project is deployed.",
-        validate: (linkInput) => {
-          if (linkInput) {
+        validate: (link2Input) => {
+          if (link2Input) {
             return true;
           } else {
             console.log("You need to enter a URL to where your project is deployed!");
