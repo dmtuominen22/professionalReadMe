@@ -38,7 +38,7 @@ function generateMarkdown(data) {
 * [Languages](#languages)
 * [Installations](#installations)
 * [Purpose](#purpose)
-* [License/Badge](#license/badge)
+* [License](#license)
 * [Featured](#featured)
 * [Contributions](#contributions)
 
@@ -46,10 +46,10 @@ function generateMarkdown(data) {
    ${data.description}
 
 ## GitHub
-   ${data.github} 
+   ${data.link1} 
 
 ## Website 
-   ${data.link}
+   ${data.link2}
 
 ## Languages
    ${data.languages}
