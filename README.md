@@ -1,6 +1,6 @@
 
 # Project  
-  test
+  ReadMe Generator
 
 ## Table of Content:
 * [Description](#description)
@@ -10,35 +10,35 @@
 * [Installations](#installations)
 * [Purpose](#purpose)
 * [License/Badge](#license/badge)
-* [Featured](#featured)
+* [Features](#features)
 * [Contributions](#contributions)
 
 ## Description
-   ydjakfdj;a
+   This project is about using the terminal to create a professional readme file so that all the questions are asked and answered in the terminal and when your finished answering all the questions a readme file is generated.
 
 ## GitHub
-   fjdkaljf  
+   https://dmtuominen22.github.io/    
 
 ## Website
-   fjadf;lja
+   https://github.com/dmtuominen22/
 
 ## Languages
-   JavaScript, HTML, CSS, ES6, jQuery
+   JavaScript, ES6, jQuery, Node
    
 ## Installations
-  uuu
+  I used node.js and inquirer
 
 ## Purpose
-  uuu
+  You can use this project to create a professional readme file for any project you create on GitHub.
 
 ## License/Badge 
-   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Featured
-    false
+## Features
+    true
 
 ## Contributions
-   y
+   Denise Tuominen
 
-   dmfeme
+   dmtuominen@gmail.com
   

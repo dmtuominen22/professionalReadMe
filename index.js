@@ -91,7 +91,7 @@ const promptUser = () => {
         message:
           "What languages did you use for this project? (Check all that apply)",
         choices: [
-          "JavaScript", 
+          "JavaScript",
           "HTML",
           "CSS",
           "ES6",
@@ -174,12 +174,8 @@ const promptUser = () => {
           }
         },
 
-      }
-        
-
-      };
       },
-      {
+    {
         type: "input",
         name: "credits",
         message: "Please include any contributors for your Project?",
@@ -198,7 +194,7 @@ const promptUser = () => {
       generateMarkdown(answers);
       let content = generateMarkdown(answers);
       writeToFile(content);
-      });
+    });
 };
 
 // TODO: Create a function to write README file
