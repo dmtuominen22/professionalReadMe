@@ -158,8 +158,26 @@ const promptUser = () => {
       {
         type: "confirm",
         name: "features",
-        message: "would you like to list your Project as a feature?",
-        default: false,
+        message: "would you like to list any items in your Project as a feature?",
+        deault: false,
+      },
+      {
+        type: "input",
+        name: "features",
+        message: "Please include any features you used for your Project?",
+        validate: (usageInput) => {
+          if (usageInput) {
+            return true;
+          } else {
+            console.log("Please include any features you used for your Project!");
+            return false;
+          }
+        },
+
+      }
+        
+
+      };
       },
       {
         type: "input",
