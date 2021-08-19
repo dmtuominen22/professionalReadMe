@@ -139,12 +139,11 @@ const promptUser = () => {
       },
       {
         type: "checkbox",
-        name: "licenseBadge",
+        name: "license",
         message: "What license would you like to use for this project?",
         choices: [
           "Mozilla Public License 2.0",
           "MIT License",
-          "Boost Software License 1.0",
           "The Unlicense",
         ],
         when: ({confirmLicense }) => {
@@ -174,7 +173,7 @@ const promptUser = () => {
           }
         },
       },
-    {
+     {
         type: "input",
         name: "credits",
         message: "Please include any contributors for your Project?",

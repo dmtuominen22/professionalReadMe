@@ -5,6 +5,8 @@
 
 // // TODO: Create a function that returns a license badge based on which license is passed in
 // // If there is no license, return an empty string
+// // TODO: Create a function that returns a license badge based on which license is passed in
+// // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch (license[0]) {
     case "Mozilla Public License 2.0":
@@ -26,11 +28,9 @@ function renderLicenseBadge(license) {
 // // // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   var licenseBadge = renderLicenseBadge(data.license);
-
   return `
 # Project  
   ${data.name}
-
 ## Table of Content:
 * [Description](#description)
 * [GitHub](#github)
@@ -38,22 +38,22 @@ function generateMarkdown(data) {
 * [Languages](#languages)
 * [Installations](#installations)
 * [Purpose](#purpose)
-* [License/Badge](#licenseBadge)
-* [Features](#features)
+* [License/Badge](#license/badge)
+* [Featured](#featured)
 * [Contributions](#contributions)
 
 ## Description
    ${data.description}
 
 ## GitHub
-   ${data.link1}  
+   ${data.github} 
 
-## Website
-   ${data.link2}
+## Website 
+   ${data.link}
 
 ## Languages
-   ${data.languages.join(", ")}
-   
+   ${data.languages}
+
 ## Installations
   ${data.installation}
 
@@ -63,12 +63,12 @@ function generateMarkdown(data) {
 ## License/Badge 
    ${licenseBadge}
 
-## Features
+## Featured
     ${data.features}
 
 ## Contributions
    ${data.credits}
-
+   
    ${data.email}
   `;
 }
