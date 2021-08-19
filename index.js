@@ -165,7 +165,7 @@ const promptUser = () => {
         name: "features",
         message: "Please include any features you used for your Project?",
         validate: (featuresInput) => {
-          if featuresInput) {
+          if (featuresInput) {
             return true;
           } else {
             console.log("Please include any features you used for your Project!");
