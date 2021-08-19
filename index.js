@@ -46,7 +46,21 @@ const promptUser = () => {
 
       {
         type: "input",
-        name: "github",
+        name: "description",
+        message: "Please include a description of your Project?",
+        validate: (descriptionInput) => {
+          if (descriptionInput) {
+            return true;
+          } else {
+            console.log("Please include a description of your Project!");
+            return false;
+          }
+        },
+      },
+
+      {
+        type: "input",
+        name: "link1",
         message: "Enter your GitHub URL (Required)",
         validate: (githubInput) => {
           if (githubInput) {
@@ -59,7 +73,7 @@ const promptUser = () => {
       },
       {
         type: "input",
-        name: "link",
+        name: "link2",
         message: "Enter the URl to  where your GitHub project is deployed.",
         validate: (linkInput) => {
           if (linkInput) {
@@ -70,26 +84,14 @@ const promptUser = () => {
           }
         },
       },
-      {
-        type: "input",
-        name: "description",
-        message: "Please include a description of your Project?",
-        validate: (descriptionInput) => {
-          if (descriptionInput) {
-            return true;
-          } else {
-            console.log("Please include a description of your Project!");
-            return false;
-          }
-        },
-      },
+
       {
         type: "checkbox",
         name: "languages",
         message:
           "What languages did you use for this project? (Check all that apply)",
         choices: [
-          "JavaScript",
+          "JavaScript", 
           "HTML",
           "CSS",
           "ES6",

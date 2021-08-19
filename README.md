@@ -9,7 +9,7 @@
 * [Languages](#languages)
 * [Installations](#installations)
 * [Purpose](#purpose)
-* [License](#license)
+* [License/Badge](#license/badge)
 * [Featured](#featured)
 * [Contributions](#contributions)
 
@@ -17,25 +17,25 @@
    this is a that was created with node.js and ran throught the terminal and when I finish it will generate a readme file.
 
 ## GitHub
-    https://dmtuominen22.github.io/  
+   https://dmtuominen22.github.io/    
 
 ## Website 
    https://github.com/dmtuominen22/
 
-## Laguages
+## Languages
    JavaScript,ES6,jQuery,Node
 
 ## Installations
-  Node.js and inquirer
+  Node.js, Inquirer
 
 ## Purpose
-  this is used to create a professonal readme me file.
+  this will let you create a professional readme file with all the information you need for one.
 
-## License 
+## License/Badge 
    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Featured
-    true
+    false
 
 ## Contributions
    Denise Tuominen
