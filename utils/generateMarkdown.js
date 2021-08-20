@@ -2,7 +2,6 @@
 // // If there is no license, return an empty string
 // function renderLicenseLink(license) {
 
-
 // // TODO: Create a function that returns a license badge based on which license is passed in
 // // If there is no license, return an empty string
 // // TODO: Create a function that returns a license badge based on which license is passed in
@@ -19,9 +18,9 @@ function renderLicenseBadge(license) {
     case "Boost Software License 1.0":
       return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
       break;
-      case "The Unlicense":
-         return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
-         break;
+    case "The Unlicense":
+      return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
+      break;
   }
 }
 
@@ -38,21 +37,21 @@ function generateMarkdown(data) {
 * [Languages](#languages)
 * [Installations](#installations)
 * [Purpose](#purpose)
-* [License/Badge](#licenseBadge)
+* [License/Badge](#license/Badge)
 * [Featured](#featured)
 * [Contributions](#contributions)
 
 ## Description
-   ${data.description}
+  ${data.description}
 
 ## GitHub
-   ${data.link1} 
+  ${data.link1} 
 
 ## Website 
-   ${data.link2}
+  ${data.link2}
 
 ## Languages
-   ${data.languages.join(" ")}
+  ${data.languages.join(" ")}
 
 ## Installations
   ${data.installation}
@@ -61,15 +60,15 @@ function generateMarkdown(data) {
   ${data.usage}
 
 ## License/Badge 
-   ${licenseBadge}
+  ${licenseBadge}
 
 ## Features
-   ${data.features}
+  ${data.features}
 
 ## Contributions
-   ${data.credits}
+  ${data.credits}
    
-   ${data.email}
+  ${data.email}
   `;
 }
 
