@@ -158,7 +158,7 @@ const promptUser = () => {
         type: "confirm",
         name: "featured",
         message: "would you like to list any items in your Project as a feature?",
-        deault: false,
+        default: false,
       },
       {
         type: "input",

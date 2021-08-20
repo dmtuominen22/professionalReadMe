@@ -38,7 +38,7 @@ function generateMarkdown(data) {
 * [Languages](#languages)
 * [Installations](#installations)
 * [Purpose](#purpose)
-* [License Badage](#licenseBadge)
+* [License/Badge](#licenseBadge)
 * [Featured](#featured)
 * [Contributions](#contributions)
 
@@ -52,7 +52,7 @@ function generateMarkdown(data) {
    ${data.link2}
 
 ## Languages
-   ${data.languages}
+   ${data.languages.join(" ")}
 
 ## Installations
   ${data.installation}
@@ -64,7 +64,7 @@ function generateMarkdown(data) {
    ${licenseBadge}
 
 ## Features
-    ${data.features}
+   ${data.features}
 
 ## Contributions
    ${data.credits}
