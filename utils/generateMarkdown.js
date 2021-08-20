@@ -37,8 +37,8 @@ function generateMarkdown(data) {
 * [Languages](#languages)
 * [Installations](#installations)
 * [Purpose](#purpose)
-* [License/Badge](#license/Badge)
-* [Featured](#featured)
+* [License Badge](#licensebadge)
+* [Features](#features)
 * [Contributions](#contributions)
 
 ## Description
@@ -59,7 +59,7 @@ function generateMarkdown(data) {
 ## Purpose
   ${data.usage}
 
-## License/Badge 
+## License Badge 
   ${licenseBadge}
 
 ## Features
