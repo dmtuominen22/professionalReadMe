@@ -61,7 +61,7 @@ const promptUser = () => {
       {
         type: "input",
         name: "link1",
-        message: "Enter your GitHub URL (Required)",
+        message: "Enter your GitHub username (Required)",
         validate: (link1Input) => {
           if (link1Input) {
             return true;

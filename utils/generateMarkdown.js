@@ -42,33 +42,33 @@ function generateMarkdown(data) {
 * [Contributions](#contributions)
 
 ## Description
-  ${data.description}
+ ${data.description}
 
 ## GitHub
-  ${data.link1} 
+ [${data.link1}](https://github.com/${data.link1})
 
-## Website 
-  ${data.link2}
+## Website
+  ${ data.link2 }
 
 ## Languages
-  ${data.languages.join(" ")}
+  ${ data.languages.join(" ") }
 
 ## Installations
-  ${data.installation}
+  ${ data.installation }
 
 ## Purpose
-  ${data.usage}
+  ${ data.usage }
 
-## License Badge 
-  ${licenseBadge}
+## License Badge
+  ${ licenseBadge }
 
 ## Features
-  ${data.features}
+  ${ data.features }
 
 ## Contributions
-  ${data.credits}
-   
-  ${data.email}
+  ${ data.credits }
+
+  ${ data.email }
   `;
 }
 

@@ -1,6 +1,6 @@
 
 # Project  
-  Professional ReadMe Generator File
+  Readme
 ## Table of Content:
 * [Description](#description)
 * [GitHub](#github)
@@ -13,31 +13,31 @@
 * [Contributions](#contributions)
 
 ## Description
-  This project is about using the terminal to create a professional readme file so that all the queestions are asked and asnswered in the terminal and when you finish answering all the questions a readMe file is generated.
+ create a readme file that will be filled in with these answers
 
 ## GitHub
-  https://github.com/dmtuominen22 
+ [dmtuomine22](https://github.com/dmtuomine22)
 
-## Website 
-  https://dmtuominen22.github.io/professionalReadMe/
+## Website
+  https://github.com/dmtuominen22/professionalReadMe
 
 ## Languages
-  JavaScript ES6 jQuery Node
+  JavaScript CSS ES6 jQuery Node
 
 ## Installations
-  I used Node.js and installed that before starting on the files and Inquirer
+  Here are all the directions
 
 ## Purpose
-  You can use this Project to generate a professional readme file for any projects you do in GitHub.
+  This project is to create a readme file with all the information needed.
 
-## License/Badge 
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+## License Badge
+  undefined
 
 ## Features
-  Node.js, Inquirier
+  using node.js to create the file.
 
 ## Contributions
   Denise Tuominen
-   
+
   dmtuominen@gmail.com
   
